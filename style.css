@@ -1,0 +1,42 @@
+    H1{TEXT-ALIGN : CENTER}      
+    H2{TEXT-ALIGN : CENTER} 
+    H3{TEXT-ALIGN : CENTER}   
+    H4{TEXT-ALIGN : CENTER}   
+    H1{FONT-FAMILY : MV BOLI}     
+    H2{FONT-FAMILY : MV BOLI}
+    H3{FONT-FAMILY : MV BOLI}
+    H4{FONT-FAMILY : MV BOLI}
+    H4{padding-top: 25px;}
+    H4{padding-right: 75px;}
+.heading{
+    background-color:#00ffff;
+
+}
+.heading{
+    border:solid;
+    border-color:#000000;
+}
+.links{
+    background-color:#7fffd4;
+    border:solid;
+    border-color: #808080;
+}
+.origamies{BACKGROUND-IMAGE : url("OrigamiImages/images/BACKGROUND.jpg");
+        display:flex;
+        justify-content:space-evenly; }
+.origamies1{BACKGROUND-IMAGE : url("OrigamiImages/images/BACKGROUND.jpg");
+        display:flex;
+        justify-content:space-evenly; }
+.ANIMALS H4{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+.ANIMALS:hover H4 {
+    opacity: 1;
+}
+.ANIMALS:hover IMG {
+    opacity: 0.5;
+}
